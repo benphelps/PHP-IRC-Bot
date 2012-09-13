@@ -41,9 +41,9 @@ define("NL", "\n");
 
 if ($debug) debug ( "PHP IRC Bot - http://benphelps.me/" . NL );
 
-$IRChost   = "irc.jcink.com"; // host or IP of the server
+$IRChost   = "chat.freenode.com"; // host or IP of the server
 $IRCport   = '6667'; // port, leave 6667 if your not sure
-$IRCchan   = array("phelpsdev"); // an array of channels to join
+$IRCchan   = array("bots"); // an array of channels to join
 
 $BotNick   = "PHIRC-Bot"; // the nickname, shows in chat, remove the random
 $BotName   = "PHP IRC Bot"; // real name, ex. Bens Bot
